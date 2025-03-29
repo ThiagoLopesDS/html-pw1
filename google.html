@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+   <title>Nova guia</title>
+   <style>
+    body {
+        background-color: #FFFFFF;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        margin: 0;
+    }
+
+   
+    .funcions1 {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        color: black;
+    }
+    .funcions1 a {
+        text-decoration: none;
+        margin-right: 20px;
+        color: black;
+    }
+
+    
+    .logo img {
+        margin-bottom: 40px;
+        height: 92px;
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+   
+    .searchcontainer {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .searchcontainer input[type="text"] {
+        width: 650px;
+        height: 50px;
+        font-size: 16px;
+        border: 1px solid #dcdcdc;
+        border-radius: 30px;
+        padding: 0 40px 0 40px; 
+        
+    }
+
+   
+    .search-icon, .microphone-icon, .camera-icon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        pointer-events: none;
+    }
+
+    .search-icon {
+        left: 10px;
+    }
+
+    .microphone-icon {
+        right: 40px;
+    }
+
+    .camera-icon {
+        right: 10px;
+    }
+</style>
+  </head>
+  <body>
+    <div class="funcions1">
+        <a href="#">Gmail</a>
+        <a href="#">Imagens</a>
+    </div>
+    <div class="logo img">
+        <img src="https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    </div>
+
+     
+     <div class="searchcontainer">
+       
+        <img src="imagens/icons 01.png" alt="Ícone de Lupa" class="search-icon">
+
+        <input type="text" name="q" placeholder="Pesquise no Google ou digite um URL">
+
+        <img src="imagens/icons 002.png" alt="Ícone de Microfone" class="microphone-icon">
+
+        <img src="imagens/icons 03.png" alt="Ícone de Câmera" class="camera-icon">
+    </div>
+  </body>
+</html>
